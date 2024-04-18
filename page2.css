@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3f0ff;
+
+}
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: rgb(219, 255, 205); /* Background color of the navigation bar */
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    padding: 15px 20px; /* Padding for the navigation buttons */
+    text-decoration: none;
+    color: #fff; /* Text color of the navigation buttons */
+    background-color: #039a38; /* Background color of the navigation buttons */
+    border: 1px solid #002f0f; /* Border color of the navigation buttons */
+    border-radius: 5px; /* Border radius of the navigation buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+li a:hover {
+    background-color: #054e00; /* Background color of the navigation buttons on hover */
+    color: #fff; /* Text color of the navigation buttons on hover */
+}
+
+/* Countdown Timer Styles */
+
+.countdown-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.countdown {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #1a005b;
+    background-color: #f9f6c5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
+
+.countdown div {
+    margin-bottom: 10px;
+}
+
+.countdown div:first-child {
+    font-weight: bold;
+}
+
+.countdown div:last-child {
+    font-size: 20px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-frame {
+    display: inline-block;
+    border: 10px solid rgb(8, 33, 175);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.photo-frame img {
+    display: block;
+    width: 500px;
+    height: 50%;
+    justify-content: center;
+}
+
+/* Media queries for responsive layout */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        font-size: 14px;
+    }
+}
+
+/* Footer Styles */
+.footer {
+    background-color: rgb(138, 212, 255);
+    color: #031192;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer i {
+    margin-right: 5px;
+}
+
+.footer span {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+}
