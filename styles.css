@@ -71,12 +71,13 @@ li a:hover {
 /* Hero Banner Styles */
 .hero-banner {
     font-family: Arial, Helvetica, sans-serif, sans-serif;
-    background-image: url('../Assets/heroimage.jpg');
+    background-image: url('heroimage.jpg');
     background-size: cover;
     background-position: center;
     color: #dafbff;
     text-align: center;
     padding: 50px;
+    
 }
 
 .hero-content {
@@ -215,8 +216,8 @@ h6 {
 
   .video-container {
     position: relative;
-    width: 90%;
-    padding-bottom: 56.25%; 
+    width: 50%;
+    padding-bottom: 28.25%; 
     overflow: hidden;
     margin: 20px;
 }
